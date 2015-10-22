@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map Servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+angduino	KEYWORD1
+Angduino	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setKey	  KEYWORD2
+getValue  KEYWORD2
+update    KEYWORD2
