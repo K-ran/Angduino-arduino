@@ -8,11 +8,13 @@
 class Angduino{
 private:
     String commands[KEYS];
-    boolean values[KEYS]={false};
-    int i=0;
+    int values[KEYS]={0};
+    int count=0;
     boolean notExist(String key);
     //will be called internally to get the command from the nodejs
-    void getCommand();
+    String getCommand();
+    void sendData(String data);
+    void buttonUpdate(String cmd);
 public:
     // Use to set new Key values
     void setKey(String key);
