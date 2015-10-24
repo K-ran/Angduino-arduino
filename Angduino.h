@@ -1,6 +1,6 @@
 // ensure this library description is only included once
-#ifndef Test_h
-#define Test_h
+#ifndef Angduino_h
+#define Angduino_h
 
 #include <Arduino.h>
 
