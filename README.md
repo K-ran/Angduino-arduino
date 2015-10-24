@@ -15,6 +15,10 @@ Using this library is really simple specially on the arduino part (also checkout
 6. Its recommende that you add a small delay after setup.
 7. *That's it !!* Now when ever you want to check the value, use `angduino.getValue("led2");`. In case you have define it as a button in you site (which is the only available option write now). The value will toggle between one or zero.
 
+### Serial monitors
+Serial monitor can be ported to the webpage as well. To write to serial port use `angduino.serialOut()` function and to read from serial inpu use `angduino.serialIn()` function. 
+* _NOTE_ : The serial data is sent in form of compelete string and not byte by byte. 
+
 ##Licence
 The MIT License (MIT)
 
