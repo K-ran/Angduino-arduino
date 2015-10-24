@@ -15,3 +15,5 @@ Angduino	KEYWORD1
 setKey	  KEYWORD2
 getValue  KEYWORD2
 update    KEYWORD2
+serialOut KEYWORD2
+serialIn  KEYWORD2
